@@ -250,13 +250,13 @@ hr{
     content: "70%";
 }
 #skill .technical .brands .line .bar3::after{
-    content: "40%";
-}
-#skill .technical .brands .line .bar4::after{
     content: "90%";
 }
+#skill .technical .brands .line .bar4::after{
+    content: "80%";
+}
 #skill .technical .brands .line .bar5::after{
-    content: "60%";
+    content: "70%";
 }
 #skill .technical .brands .line .bar6::after{
     content: "80%";
