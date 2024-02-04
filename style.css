@@ -1,0 +1,373 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'poopins',sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    display:grid;
+    box-sizing: border-box;
+    background-color: rgb(24, 24, 50);
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-color{
+    background-color: rgb(32, 32, 75);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+}
+.navbar-brand{
+    margin-left: 4em;
+    font-size: 30px;
+}
+.navbar-nav{
+    margin-left: 14em;
+}
+.nav-item{
+    margin-left: 4em;
+}
+.nav-item .nav-link{
+    font-size: 18px;
+}
+.nav-item .active{
+    color: rgb(69, 195, 245);
+}
+.body{
+    display: flex;
+    margin: 14em 8em;
+    justify-content: space-between;
+}
+.body .text{
+    color: #fff;
+}
+.body .text .change-text{
+    color: rgb(42, 178, 232);
+}
+.body .text .icons{
+    margin-top: 2em;
+}
+.body .text .icons{
+    font-size: 28px;
+}
+.body .text .icons i{
+    margin-left: 30px;
+    border: 2px solid rgb(63, 191, 241);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-bottom: 20px;
+}
+.body .text .icons i:hover{
+    background-color: rgb(57, 182, 232);
+    color: #fff;
+    transition: 0.5s;
+}
+.body .background-pic{
+    display: flex;
+    margin: -20px 9em;
+}
+.body .background-pic img{
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgb(81, 179, 218);
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px 14px rgb(93, 199, 241);
+}
+.body #contact-btn{
+    display: flex;
+    position: absolute;
+    margin: 7em 0;
+}
+.body #contact-btn #btn{
+    border: 2px solid #fff;
+    width: 190px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: rgb(38, 183, 241);
+    color: #fff;
+    margin: 0 20px;
+}
+hr{
+    color: green;
+}
+
+/* About section */
+#about{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 28px 20px;
+    margin-bottom: 9em;
+}
+#about .about-pic{
+    display: flex;
+    margin: 10em 4em;
+}
+#about .about-pic img{
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(81, 179, 218);
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px 14px rgb(93, 199, 241);
+}
+#about .about-text{
+    color: #fff;
+    margin-bottom: 5px;
+    line-height: 31px;
+    margin: 0 4em;
+}
+
+/* Services section  */
+#services{
+    display: inline;
+    height: 10vh;
+    margin-bottom: 4em;
+}
+#services h1{
+    margin: 3em 0;
+    margin-bottom: 3em;
+    font-size: 41px;
+    text-align: center;
+    color: #fff;
+}
+#services .service{
+    display: flex;
+    position: relative;
+    padding-left: 6em;
+}
+#services .card{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid  rgb(32, 32, 75);
+    margin-left: 3em;
+    cursor: pointer;
+}
+#services .card:hover{
+   box-shadow: 2px 2px 6px 16px rgb(32, 32, 75);
+   transform: translateY(-20px);
+   transition: 0.5s;
+}
+.card-body i{
+  font-size: 45px;
+  margin-bottom: 15px;
+  color: rgb(25, 178, 239);
+}
+#services .card .card-body #btn{
+    border: 2px solid #ffffffb3;
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(38, 183, 241);
+    color: #fff;
+}
+#btn:hover{
+    box-shadow: 1px 2px 7px 8px rgb(107, 208, 248);
+}
+
+/* skill section  */
+#skill{
+    position: relative;
+    display: inline;
+    margin: 30em 0;
+}
+#skill h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 47px;
+    margin-top: 3em;
+}
+#skill .technical{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 17em;
+    color:#fff;
+}
+#skill .technical .brands{
+    display: grid;
+    position: relative;
+    justify-content: space-between;
+    margin: 20px 10em;
+}
+#skill .technical .brands i{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#skill .technical .brands .line{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #000000;
+    margin: 60px 0;
+}
+#skill .technical .brands .line span{
+    height: 100%;
+    background-color: rgb(44, 186, 242);
+    position: absolute;
+    border-radius: 10px;
+}
+#skill .technical .brands .line .bar1{
+    width: 95%;
+}
+#skill .technical .brands .line .bar2{
+    width: 70%;
+}
+#skill .technical .brands .line .bar3{
+    width: 90%;
+}
+#skill .technical .brands .line .bar4{
+    width: 80%;
+}
+#skill .technical .brands .line .bar5{
+    width: 70%;
+}
+#skill .technical .brands .line .bar6{
+    width: 80%;
+}
+#skill .technical .brands .line span::after{
+    position: absolute;
+    padding: 1px 0px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -21px;
+    right: -20px;
+}
+#skill .technical .brands .line .bar1::after{
+    content: "95%";
+}
+#skill .technical .brands .line .bar2::after{
+    content: "70%";
+}
+#skill .technical .brands .line .bar3::after{
+    content: "40%";
+}
+#skill .technical .brands .line .bar4::after{
+    content: "90%";
+}
+#skill .technical .brands .line .bar5::after{
+    content: "60%";
+}
+#skill .technical .brands .line .bar6::after{
+    content: "80%";
+}
+
+
+/* projrct section  */
+#project{
+    display: inline;
+    position: relative;
+    margin: -9em 0;
+}
+#project .my{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 45px;
+    margin-top: 3em;
+}
+.new{
+    display: flex;
+    position: relative;
+    margin: 5em 2em;
+}
+.card{
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid  rgb(32, 32, 75);
+    margin-left: 3em;
+    cursor: pointer;
+    margin-bottom: 2em;
+}
+.card:hover{
+   box-shadow: 2px 2px 6px 16px rgb(32, 32, 75);
+   transform: translateY(-20px);
+   transition: 0.5s;
+}
+.card .card-body #btn{
+    border: 2px solid #ffffffb3;
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(38, 183, 241);
+    color: #fff;
+}
+#btn:hover{
+    box-shadow: 1px 2px 7px 8px rgb(107, 208, 248);
+}
+
+
+/* Contact section */
+#contact{
+    display: flex;
+    position: relative;
+    margin: 15em 6em;
+    color: #fff;
+    margin-bottom: 5em;
+}
+#contact h1{
+    margin-bottom: 30px;
+}
+#contact p{
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+#contact .icon .icon1{
+    display: flex;
+    margin-bottom: 30px;
+}
+#contact .icon .icon1 h5{
+    display: flex;
+    margin: -5px 20px;
+}
+#contact .contact-info .icons{
+    font-size: 28px;
+    margin-top: 2em;
+}
+#contact .contact-info .icons i{
+    margin-left: 30px;
+    border: 2px solid rgb(63, 191, 241);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-bottom: 20px;
+}
+#contact .contact-info .icons i:hover{
+    background-color: rgb(57, 182, 232);
+    color: #fff;
+    transition: 0.5s;
+}
+#contact .contact-form{
+    margin: 0 11em;
+}
+#contact .form-control{
+    width: 470px;
+}
+#contact .textarea{
+    display: grid;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(17, 180, 245);
+    background-color: rgb(32, 32, 75);
+    padding: 10px;
+}
