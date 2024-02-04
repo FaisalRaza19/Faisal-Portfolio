@@ -46,7 +46,7 @@ const first = (project)=>{
 first(project);
 
 var typed = new Typed(".change-text",{
-    strings:["am a Web Developer","Know the WordPress","Know the Wix","Know the Shopify"],
+    strings:["am a Web Developer","Know the React Js","Know the Node Js"],
     typeSpeed : 150,
     backSpeed : 150,
     loop : true
